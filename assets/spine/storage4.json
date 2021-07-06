@@ -1,0 +1,42 @@
+{
+"skeleton": { "hash": "W51Gt4hI0yZSyzgKD01T+qSZZMY", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-storage", "bone": "root", "attachment": "game/bg-storage" },
+	{ "name": "game/office-clock", "bone": "root", "dark": "000000", "attachment": "game/office-clock" },
+	{ "name": "clock", "bone": "root", "attachment": "clock" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"clock": {
+				"clock": {
+					"type": "boundingbox",
+					"vertexCount": 8,
+					"vertices": [ 203.61, 215.4, 193.72, 220, 189.12, 230.35, 193.72, 243.23, 206.83, 249.67, 218.1, 245.53, 222.47, 234.95, 218.79, 223.91 ]
+				}
+			},
+			"game/bg-storage": {
+				"game/bg-storage": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			},
+			"game/office-clock": {
+				"game/office-clock": { "x": 205.99, "y": 232.97, "width": 34, "height": 35 }
+			}
+		}
+	}
+],
+"animations": {
+	"clock": {
+		"slots": {
+			"game/office-clock": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}

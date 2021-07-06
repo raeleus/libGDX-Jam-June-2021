@@ -1,0 +1,147 @@
+{
+"skeleton": { "hash": "rUkUedw3+jLXSmza6+FQSdz2CUU", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-commons", "bone": "root", "attachment": "game/bg-commons" },
+	{ "name": "game/commons-elevator", "bone": "root", "dark": "000000", "attachment": "game/commons-elevator" },
+	{ "name": "game/commons-engineering", "bone": "root", "dark": "000000", "attachment": "game/commons-engineering" },
+	{ "name": "game/commons-mess-hall", "bone": "root", "dark": "000000", "attachment": "game/commons-mess-hall" },
+	{ "name": "game/commons-poster", "bone": "root", "dark": "000000", "attachment": "game/commons-poster" },
+	{ "name": "game/commons-arrow", "bone": "root", "dark": "000000", "attachment": "game/commons-arrow" },
+	{ "name": "game/commons-arrow2", "bone": "root", "dark": "000000", "attachment": "game/commons-arrow" },
+	{ "name": "arrow", "bone": "root", "attachment": "arrow" },
+	{ "name": "elevator", "bone": "root", "attachment": "elevator" },
+	{ "name": "poster", "bone": "root", "attachment": "poster" },
+	{ "name": "mess-hall", "bone": "root", "attachment": "mess-hall" },
+	{ "name": "engineering", "bone": "root", "attachment": "engineering" },
+	{ "name": "receiving", "bone": "root", "attachment": "receiving" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arrow": {
+				"arrow": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 205.52, 219.17, 220.39, 235.16, 210.4, 241.15, 245.48, 247.81, 246.37, 220.95, 235.71, 226.28, 220.84, 208.74 ]
+				}
+			},
+			"elevator": {
+				"elevator": {
+					"type": "boundingbox",
+					"vertexCount": 8,
+					"vertices": [ 309.86, 174.77, 312.97, 241.82, 356.7, 204.74, 356.04, 171, 368.25, 164.12, 366.47, 149.69, 353.82, 155.24, 350.71, 134.37 ]
+				}
+			},
+			"engineering": {
+				"engineering": {
+					"type": "boundingbox",
+					"vertexCount": 8,
+					"vertices": [ 201.5, 244.93, 200.02, 286.74, 220.74, 305.61, 222.22, 285.63, 232.21, 290.07, 231.84, 280.45, 221.11, 274.53, 221.85, 261.21 ]
+				}
+			},
+			"game/bg-commons": {
+				"game/bg-commons": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			},
+			"game/commons-arrow": {
+				"game/commons-arrow": { "x": 226.34, "y": 228.11, "width": 42, "height": 41 }
+			},
+			"game/commons-arrow2": {
+				"game/commons-arrow": { "x": 308.84, "y": 63.11, "rotation": -86.17, "width": 42, "height": 41 }
+			},
+			"game/commons-elevator": {
+				"game/commons-elevator": { "x": 338.82, "y": 188.04, "width": 59, "height": 112 }
+			},
+			"game/commons-engineering": {
+				"game/commons-engineering": { "x": 215.79, "y": 275.92, "width": 32, "height": 64 }
+			},
+			"game/commons-mess-hall": {
+				"game/commons-mess-hall": { "x": 70.97, "y": 245.69, "width": 46, "height": 53 }
+			},
+			"game/commons-poster": {
+				"game/commons-poster": { "x": 140.57, "y": 244.98, "width": 17, "height": 25 }
+			},
+			"mess-hall": {
+				"mess-hall": {
+					"type": "boundingbox",
+					"vertexCount": 10,
+					"vertices": [ 48.34, 220.73, 51.01, 243.81, 59, 261.35, 65.88, 269.57, 72.99, 271.79, 79.42, 269.79, 84.97, 266.01, 90.3, 252.47, 92.52, 238.26, 93.85, 220.28 ]
+				}
+			},
+			"poster": {
+				"poster": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ 132.26, 233.82, 132.04, 256.25, 149.13, 256.47, 148.24, 234.05 ]
+				}
+			},
+			"receiving": {
+				"receiving": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 289.23, 67.04, 298.98, 83.22, 315.33, 69.48, 321.07, 79.74, 329.95, 43.73, 303.15, 42.33, 308.2, 53.82 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"arrow": {
+		"slots": {
+			"game/commons-arrow": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"elevator": {
+		"slots": {
+			"game/commons-elevator": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"engineering": {
+		"slots": {
+			"game/commons-engineering": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"mess-hall": {
+		"slots": {
+			"game/commons-mess-hall": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"poster": {
+		"slots": {
+			"game/commons-poster": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"receiving": {
+		"slots": {
+			"game/commons-arrow2": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}

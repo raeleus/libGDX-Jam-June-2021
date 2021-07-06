@@ -1,0 +1,126 @@
+{
+"skeleton": { "hash": "CIvogWwyYPN7EqZE5uEbRUbdaVA", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-lab", "bone": "root", "attachment": "game/bg-lab" },
+	{ "name": "game/lab-arrow", "bone": "root", "dark": "000000", "attachment": "game/lab-arrow" },
+	{ "name": "game/lab-balls", "bone": "root", "dark": "000000", "attachment": "game/lab-balls" },
+	{ "name": "game/lab-door", "bone": "root", "dark": "000000", "attachment": "game/lab-door" },
+	{ "name": "game/lab-equipment", "bone": "root", "dark": "000000", "attachment": "game/lab-equipment" },
+	{ "name": "game/lab-notes", "bone": "root", "dark": "000000", "attachment": "game/lab-notes" },
+	{ "name": "arrow", "bone": "root", "attachment": "arrow" },
+	{ "name": "balls", "bone": "root", "attachment": "balls" },
+	{ "name": "equipment", "bone": "root", "attachment": "equipment" },
+	{ "name": "notes", "bone": "root", "attachment": "notes" },
+	{ "name": "door", "bone": "root", "attachment": "door" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arrow": {
+				"arrow": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 170.18, 80.49, 232.82, 82.22, 232.82, 48.95, 259.17, 47.23, 206.47, -2.45, 143.4, 38.59, 172.34, 43.77 ]
+				}
+			},
+			"balls": {
+				"balls": {
+					"type": "boundingbox",
+					"vertexCount": 6,
+					"vertices": [ 207.76, 163.43, 221.16, 150.04, 271.7, 150.04, 279.48, 159.55, 263.49, 192.81, 229.36, 191.51 ]
+				}
+			},
+			"door": {
+				"door": {
+					"type": "boundingbox",
+					"vertexCount": 9,
+					"vertices": [ 194.37, 238.78, 171.91, 269.02, 173.64, 319.56, 214.68, 372.7, 253.56, 379.61, 301.51, 366.65, 329.16, 323.45, 331.75, 270.32, 313.6, 240.08 ]
+				}
+			},
+			"equipment": {
+				"equipment": {
+					"type": "boundingbox",
+					"vertexCount": 30,
+					"vertices": [ 91.12, 152.63, 97.17, 172.07, 104.95, 175.96, 107.11, 205.34, 127.41, 205.34, 126.12, 175.53, 132.6, 157.82, 139.94, 156.95, 140.8, 168.62, 150.31, 175.53, 151.6, 207.07, 173.2, 207.07, 173.2, 174.67, 179.68, 159.55, 203.88, 195.4, 293.3, 197.13, 286.82, 216.57, 309.28, 215.71, 309.28, 162.57, 314.04, 144.86, 302.8, 134.49, 285.52, 138.38, 282.5, 154.79, 290.71, 166.03, 293.3, 192.38, 206.04, 193.24, 158.95, 135.79, 137.78, 148.75, 127.41, 147.88, 105.81, 136.65 ]
+				}
+			},
+			"game/bg-lab": {
+				"game/bg-lab": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			},
+			"game/lab-arrow": {
+				"game/lab-arrow": { "x": 201.39, "y": 42.32, "width": 106, "height": 74 }
+			},
+			"game/lab-balls": {
+				"game/lab-balls": { "x": 243.54, "y": 171.03, "width": 64, "height": 37 }
+			},
+			"game/lab-door": {
+				"game/lab-door": { "x": 251.51, "y": 307.71, "width": 151, "height": 137 }
+			},
+			"game/lab-equipment": {
+				"game/lab-equipment": { "x": 202.53, "y": 176.73, "width": 214, "height": 76 }
+			},
+			"game/lab-notes": {
+				"game/lab-notes": { "x": 199.12, "y": 140.28, "width": 68, "height": 48 }
+			},
+			"notes": {
+				"notes": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ 164.13, 140.11, 189.62, 163, 233.25, 139.24, 211.65, 113.75 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"arrow": {
+		"slots": {
+			"game/lab-arrow": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"balls": {
+		"slots": {
+			"game/lab-balls": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"door": {
+		"slots": {
+			"game/lab-door": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"equipment": {
+		"slots": {
+			"game/lab-equipment": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"notes": {
+		"slots": {
+			"game/lab-notes": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,119 @@
+{
+"skeleton": {
+	"hash": "b5qHtE32MnNnqpx/8QApPRRj2ag",
+	"spine": "3.8.99",
+	"x": -0.5,
+	"y": -0.5,
+	"width": 401,
+	"height": 401,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-crew", "bone": "root", "attachment": "game/bg-crew" },
+	{ "name": "game/crew-arrow", "bone": "root", "dark": "000000", "attachment": "game/crew-arrow" },
+	{ "name": "game/crew-body", "bone": "root", "dark": "000000", "attachment": "game/crew-body" },
+	{ "name": "game/crew-escape-pod", "bone": "root", "dark": "000000", "attachment": "game/crew-escape-pod" },
+	{ "name": "arrow", "bone": "root", "attachment": "arrow" },
+	{ "name": "body", "bone": "root", "attachment": "body" },
+	{ "name": "escape-pod", "bone": "root", "attachment": "escape-pod" },
+	{ "name": "game/crew-graffiti", "bone": "root", "dark": "000000", "attachment": "game/crew-graffiti" },
+	{ "name": "graffiti", "bone": "root", "attachment": "graffiti" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arrow": {
+				"arrow": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 56.04, 13.24, 15.83, 51.65, 54.96, 93.29, 56.4, 68.52, 95.89, 68.52, 96.25, 37.29, 56.4, 33.7 ]
+				}
+			},
+			"body": {
+				"body": {
+					"type": "boundingbox",
+					"vertexCount": 37,
+					"vertices": [ 150.66, 80.83, 135.17, 75.5, 122.58, 82.04, 119.2, 98.01, 101.77, 96.8, 101.77, 101.15, 114.6, 105.75, 119.92, 106.96, 113.63, 113.01, 119.68, 121.48, 131.05, 127.05, 135.89, 126.08, 148.48, 133.58, 163, 135.03, 177.52, 127.05, 189.13, 131.89, 197.85, 127.77, 206.07, 128.98, 212.37, 133.82, 216.96, 130.92, 223.98, 127.77, 223.98, 121.48, 219.63, 115.92, 215.75, 111.32, 208.74, 111.08, 203.17, 109.14, 205.83, 105.27, 217.69, 106.48, 223.98, 103.09, 220.59, 97.77, 211.88, 98.25, 203.41, 98.98, 201.72, 88.09, 193.25, 83.73, 185.02, 84.7, 172.44, 79.86, 160.82, 78.16 ]
+				}
+			},
+			"escape-pod": {
+				"escape-pod": {
+					"type": "boundingbox",
+					"vertexCount": 10,
+					"vertices": [ 339.54, 121.12, 344.66, 189.87, 354.48, 199.69, 370.28, 199.69, 379.67, 185.17, 377.97, 162.97, 390.94, 156.72, 386.83, 130.45, 373.18, 133.21, 365.58, 88.78 ]
+				}
+			},
+			"game/bg-crew": {
+				"game/bg-crew": { "x": 200, "y": 200, "width": 401, "height": 401 }
+			},
+			"game/crew-arrow": {
+				"game/crew-arrow": { "x": 56.1, "y": 53.31, "width": 81, "height": 81 }
+			},
+			"game/crew-body": {
+				"game/crew-body": { "x": 168.55, "y": 106.07, "width": 134, "height": 59 }
+			},
+			"game/crew-escape-pod": {
+				"game/crew-escape-pod": { "x": 364.04, "y": 145, "width": 50, "height": 113 }
+			},
+			"game/crew-graffiti": {
+				"game/crew-graffiti": { "x": 259.7, "y": 65.32, "width": 99, "height": 79 }
+			},
+			"graffiti": {
+				"graffiti": {
+					"type": "boundingbox",
+					"vertexCount": 8,
+					"vertices": [ 207.59, 66.3, 250.44, 96.98, 261.65, 85.78, 288.43, 106.72, 311.81, 85.78, 256.78, 23.93, 242.65, 40.48, 224.63, 28.31 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"arrow": {
+		"slots": {
+			"game/crew-arrow": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"body": {
+		"slots": {
+			"game/crew-body": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"escape-pod": {
+		"slots": {
+			"game/crew-escape-pod": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"graffiti": {
+		"slots": {
+			"game/crew-graffiti": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			},
+			"graffiti": {
+				"color": [
+					{ "color": "000000ff" }
+				]
+			}
+		}
+	}
+}
+}

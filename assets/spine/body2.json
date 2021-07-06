@@ -1,0 +1,31 @@
+{
+"skeleton": {
+	"hash": "UaZeOkw4kb6c9ckH1LuPAy7EtXE",
+	"spine": "3.8.99",
+	"x": -0.5,
+	"y": -0.5,
+	"width": 401,
+	"height": 401,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-body2", "bone": "root", "attachment": "game/bg-body2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"game/bg-body2": {
+				"game/bg-body2": { "x": 200, "y": 200, "width": 401, "height": 401 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

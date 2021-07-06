@@ -1,0 +1,84 @@
+{
+"skeleton": { "hash": "ygOj+n3ZehasGC9V400aOG0AM3I", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-hallway", "bone": "root", "attachment": "game/bg-hallway" },
+	{ "name": "game/hallway-arrow", "bone": "root", "dark": "000000", "attachment": "game/hallway-arrow" },
+	{ "name": "game/hallway-door", "bone": "root", "dark": "000000", "attachment": "game/hallway-door" },
+	{ "name": "game/hallway-schematic", "bone": "root", "dark": "000000", "attachment": "game/hallway-schematic" },
+	{ "name": "arrow", "bone": "root", "attachment": "arrow" },
+	{ "name": "schematic", "bone": "root", "attachment": "schematic" },
+	{ "name": "door", "bone": "root", "attachment": "door" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arrow": {
+				"arrow": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 270.89, 187.01, 268.86, 234.8, 320.3, 237.23, 318.27, 257.08, 372.54, 216.17, 319.49, 167.98, 320.7, 190.66 ]
+				}
+			},
+			"door": {
+				"door": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ 72.84, 128.69, 71.22, 279.76, 151.41, 282.19, 154.65, 128.29 ]
+				}
+			},
+			"game/bg-hallway": {
+				"game/bg-hallway": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			},
+			"game/hallway-arrow": {
+				"game/hallway-arrow": { "x": 320.69, "y": 212.2, "width": 105, "height": 90 }
+			},
+			"game/hallway-door": {
+				"game/hallway-door": { "x": 112.16, "y": 205.17, "width": 84, "height": 152 }
+			},
+			"game/hallway-schematic": {
+				"game/hallway-schematic": { "x": 219.94, "y": 225.48, "width": 49, "height": 71 }
+			},
+			"schematic": {
+				"schematic": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ 195.96, 190.25, 198.39, 259.51, 243.75, 259.51, 240.11, 189.44 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"arrow": {
+		"slots": {
+			"game/hallway-arrow": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"door": {
+		"slots": {
+			"game/hallway-door": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"schematic": {
+		"slots": {
+			"game/hallway-schematic": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}

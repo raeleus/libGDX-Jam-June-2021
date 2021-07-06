@@ -1,0 +1,147 @@
+{
+"skeleton": { "hash": "/7iadFoMkAb4LqxqdkfxNmXZf+g", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-office", "bone": "root", "attachment": "game/bg-office" },
+	{ "name": "game/office-arrow", "bone": "root", "dark": "000000", "attachment": "game/office-arrow" },
+	{ "name": "game/office-clock", "bone": "root", "dark": "000000", "attachment": "game/office-clock" },
+	{ "name": "game/office-desk", "bone": "root", "dark": "000000", "attachment": "game/office-desk" },
+	{ "name": "game/office-filing-cabinet", "bone": "root", "dark": "000000", "attachment": "game/office-filing-cabinet" },
+	{ "name": "game/office-plant", "bone": "root", "dark": "000000", "attachment": "game/office-plant" },
+	{ "name": "game/office-window", "bone": "root", "dark": "000000", "attachment": "game/office-window" },
+	{ "name": "arrow", "bone": "root", "attachment": "arrow" },
+	{ "name": "clock", "bone": "root", "attachment": "clock" },
+	{ "name": "desk", "bone": "root", "attachment": "desk" },
+	{ "name": "window", "bone": "root", "dark": "000000", "attachment": "window" },
+	{ "name": "plant", "bone": "root", "dark": "000000", "attachment": "plant" },
+	{ "name": "filing-cabinet", "bone": "root", "attachment": "filing-cabinet" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arrow": {
+				"arrow": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 281.76, 174.93, 260.88, 123.43, 302.64, 113.22, 293.36, 83.52, 356.46, 125.75, 327.69, 191.17, 317.95, 162.4 ]
+				}
+			},
+			"clock": {
+				"clock": {
+					"type": "boundingbox",
+					"vertexCount": 6,
+					"vertices": [ 137.45, 372.59, 156.94, 381.87, 171.79, 369.35, 163.9, 350.32, 146.73, 346.61, 137.45, 356.82 ]
+				}
+			},
+			"desk": {
+				"desk": {
+					"type": "boundingbox",
+					"vertexCount": 6,
+					"vertices": [ 156.94, 247.78, 77.6, 122.5, 94.77, 59.86, 162.51, 49.19, 236.75, 183.28, 231.18, 245.92 ]
+				}
+			},
+			"filing-cabinet": {
+				"filing-cabinet": {
+					"type": "boundingbox",
+					"vertexCount": 6,
+					"vertices": [ 215.41, 353.57, 232.57, 371.67, 271.55, 369.81, 269.23, 271.44, 256.7, 246.85, 214.48, 247.31 ]
+				}
+			},
+			"game/bg-office": {
+				"game/bg-office": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			},
+			"game/office-arrow": {
+				"game/office-arrow": { "x": 308.67, "y": 137.35, "width": 99, "height": 110 }
+			},
+			"game/office-clock": {
+				"game/office-clock": { "x": 154.16, "y": 364.24, "width": 34, "height": 35 }
+			},
+			"game/office-desk": {
+				"game/office-desk": { "x": 156.48, "y": 148.95, "width": 159, "height": 197 }
+			},
+			"game/office-filing-cabinet": {
+				"game/office-filing-cabinet": { "x": 242.78, "y": 308.56, "width": 57, "height": 124 }
+			},
+			"game/office-plant": {
+				"game/office-plant": { "x": 323.05, "y": 277.94, "width": 45, "height": 88 }
+			},
+			"game/office-window": {
+				"game/office-window": { "x": 36.3, "y": 271.91, "width": 38, "height": 50 }
+			},
+			"plant": {
+				"plant": {
+					"type": "boundingbox",
+					"vertexCount": 14,
+					"vertices": [ 315.17, 235.71, 303.57, 260.77, 302.64, 294.18, 318.41, 292.32, 320.73, 322.02, 328.16, 318.77, 327.23, 304.85, 342.08, 313.67, 347.18, 304.39, 326.3, 286.29, 331.41, 280.72, 343.47, 271.91, 342.08, 261.7, 330.94, 234.32 ]
+				}
+			},
+			"window": {
+				"window": {
+					"type": "boundingbox",
+					"vertexCount": 6,
+					"vertices": [ 14.03, 268.19, 23.77, 289.54, 42.33, 297.89, 56.72, 268.66, 47.9, 251.03, 26.09, 246.85 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"arrow": {
+		"slots": {
+			"game/office-arrow": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"clock": {
+		"slots": {
+			"game/office-clock": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"desk": {
+		"slots": {
+			"game/office-desk": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"filing-cabinet": {
+		"slots": {
+			"game/office-filing-cabinet": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"plant": {
+		"slots": {
+			"game/office-plant": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"window": {
+		"slots": {
+			"game/office-window": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,147 @@
+{
+"skeleton": { "hash": "3FE53gnt+ruY7886yu+izhSHzY0", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-engineering1", "bone": "root", "attachment": "game/bg-engineering1" },
+	{ "name": "game/engineering1-arrow", "bone": "root", "dark": "000000", "attachment": "game/engineering1-arrow" },
+	{ "name": "game/engineering1-graffiti", "bone": "root", "dark": "000000", "attachment": "game/engineering1-graffiti" },
+	{ "name": "game/engineering1-grease", "bone": "root", "dark": "000000", "attachment": "game/engineering1-grease" },
+	{ "name": "game/engineering1-printer", "bone": "root", "dark": "000000", "attachment": "game/engineering1-printer" },
+	{ "name": "arrow", "bone": "root", "attachment": "arrow" },
+	{ "name": "graffiti", "bone": "root", "attachment": "graffiti" },
+	{ "name": "grease", "bone": "root", "attachment": "grease" },
+	{ "name": "printer", "bone": "root", "attachment": "printer" },
+	{ "name": "game/engineering1-ladder", "bone": "root", "dark": "000000", "attachment": "game/engineering1-ladder" },
+	{ "name": "ladder", "bone": "root", "attachment": "ladder" },
+	{ "name": "game/engineering1-crew-door", "bone": "root", "dark": "000000", "attachment": "game/engineering1-crew-door" },
+	{ "name": "crew-door", "bone": "root", "attachment": "crew-door" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arrow": {
+				"arrow": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 234.59, 133.95, 224.48, 130.48, 260.6, 111.7, 266.1, 146.96, 257.14, 143.49, 245, 166.61, 221.3, 156.78 ]
+				}
+			},
+			"crew-door": {
+				"crew-door": {
+					"type": "boundingbox",
+					"vertexCount": 9,
+					"vertices": [ 191.79, 208.69, 192.56, 229.25, 194.62, 235.67, 200.27, 243.38, 206.69, 244.41, 213.38, 240.04, 215.95, 229.25, 215.69, 217.94, 215.69, 208.95 ]
+				}
+			},
+			"game/bg-engineering1": {
+				"game/bg-engineering1": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			},
+			"game/engineering1-arrow": {
+				"game/engineering1-arrow": { "x": 243.12, "y": 138.63, "width": 46, "height": 58 }
+			},
+			"game/engineering1-crew-door": {
+				"game/engineering1-crew-door": { "x": 204.03, "y": 226.87, "width": 25, "height": 37 }
+			},
+			"game/engineering1-graffiti": {
+				"game/engineering1-graffiti": { "x": 317.82, "y": 218.62, "width": 140, "height": 63 }
+			},
+			"game/engineering1-grease": {
+				"game/engineering1-grease": { "x": 133.4, "y": 143.26, "width": 113, "height": 24 }
+			},
+			"game/engineering1-ladder": {
+				"game/engineering1-ladder": { "x": 53.22, "y": 205.26, "width": 34, "height": 144 }
+			},
+			"game/engineering1-printer": {
+				"game/engineering1-printer": { "x": 122.82, "y": 189.53, "width": 67, "height": 59 }
+			},
+			"graffiti": {
+				"graffiti": {
+					"type": "boundingbox",
+					"vertexCount": 5,
+					"vertices": [ 247.23, 227.8, 358.82, 185.58, 390.49, 225.16, 298.5, 246.27, 247.98, 248.16 ]
+				}
+			},
+			"grease": {
+				"grease": {
+					"type": "boundingbox",
+					"vertexCount": 8,
+					"vertices": [ 188.79, 155.79, 189.92, 134.68, 129.6, 132.42, 77.2, 138.45, 79.08, 149.01, 110, 144.11, 139.78, 147.5, 169.56, 154.28 ]
+				}
+			},
+			"ladder": {
+				"ladder": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ 36.75, 134.33, 39.13, 273.17, 69.43, 274.45, 64.97, 134.09 ]
+				}
+			},
+			"printer": {
+				"printer": {
+					"type": "boundingbox",
+					"vertexCount": 8,
+					"vertices": [ 99.07, 159.19, 89.64, 170.5, 89.26, 207.44, 100.2, 216.11, 146.57, 218.75, 157.5, 207.06, 156.37, 173.89, 146.57, 163.33 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"arrow": {
+		"slots": {
+			"game/engineering1-arrow": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"crew-door": {
+		"slots": {
+			"game/engineering1-crew-door": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"graffiti": {
+		"slots": {
+			"game/engineering1-graffiti": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"grease": {
+		"slots": {
+			"game/engineering1-grease": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"ladder": {
+		"slots": {
+			"game/engineering1-ladder": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"printer": {
+		"slots": {
+			"game/engineering1-printer": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}

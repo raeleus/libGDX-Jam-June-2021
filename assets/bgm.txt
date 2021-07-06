@@ -1,0 +1,5 @@
+bgm/action.mp3
+bgm/audio-sample.mp3
+bgm/game.mp3
+bgm/libgdx.mp3
+bgm/menu.mp3

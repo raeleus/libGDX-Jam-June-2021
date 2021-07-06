@@ -1,0 +1,85 @@
+{
+"skeleton": {
+	"hash": "FNwlWubk3Agh1Vk/vc1SAdGFJdU",
+	"spine": "3.8.99",
+	"x": 203.26,
+	"y": -107.53,
+	"width": 602.95,
+	"height": 807.91,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{
+		"name": "game/panda",
+		"parent": "root",
+		"length": 79.36,
+		"rotation": 0.99,
+		"x": 529.74,
+		"y": 191.01,
+		"scaleX": 2.3832,
+		"scaleY": 2.3832
+	},
+	{ "name": "game/panda-eye2", "parent": "game/panda", "length": 36.05, "rotation": 1.19, "x": 17.06, "y": 130.08 }
+],
+"slots": [
+	{ "name": "game/panda", "bone": "game/panda", "attachment": "game/panda" },
+	{ "name": "game/panda-eye", "bone": "game/panda-eye2", "attachment": "game/panda-eye" },
+	{ "name": "game/panda-eye2", "bone": "game/panda-eye2", "attachment": "game/panda-eye" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"game/panda": {
+				"game/panda": { "x": -9.72, "y": 44.41, "rotation": -0.99, "width": 253, "height": 339 }
+			},
+			"game/panda-eye": {
+				"game/panda-eye": { "x": 30.52, "y": -0.25, "rotation": -2.17, "width": 8, "height": 10 }
+			},
+			"game/panda-eye2": {
+				"game/panda-eye": { "x": -36.34, "y": 0.01, "rotation": -2.17, "width": 8, "height": 10 }
+			}
+		}
+	}
+],
+"events": {
+	"sfx/line panda stay with": { "audio": "sfx/line panda stay with.mp3" },
+	"sfx/line peanut panda no": { "audio": "sfx/line peanut panda no.mp3" },
+	"sfx/line zebra why": { "audio": "sfx/line zebra why.mp3" }
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"game/panda": {
+				"rotate": [
+					{ "time": 2.1667 },
+					{ "time": 2.5333, "angle": 7.85 },
+					{ "time": 2.6667, "angle": 0.37 },
+					{ "time": 2.8333, "angle": 10.58 },
+					{ "time": 3, "angle": -1.46, "curve": "stepped" },
+					{ "time": 3.2667, "angle": -1.46 },
+					{ "time": 3.4667, "angle": 33.67 },
+					{ "time": 4.2, "angle": -2.77, "curve": "stepped" },
+					{ "time": 8.3, "angle": -2.77 },
+					{ "time": 9.5, "angle": 62.02, "curve": "stepped" },
+					{ "time": 10.3333, "angle": 62.02 }
+				]
+			},
+			"game/panda-eye2": {
+				"translate": [
+					{ "time": 6.4333 },
+					{ "time": 8.0333, "x": -0.4, "y": 13.01 }
+				]
+			}
+		},
+		"events": [
+			{ "name": "sfx/line peanut panda no" },
+			{ "time": 2.1667, "name": "sfx/line zebra why" },
+			{ "time": 4.8, "name": "sfx/line panda stay with" }
+		]
+	},
+	"stand": {}
+}
+}

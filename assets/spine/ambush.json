@@ -1,0 +1,24 @@
+{
+"skeleton": { "hash": "7j280TVmoVZyS/D3HLz53SzIoC4", "spine": "3.8.99", "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"events": {
+	"sfx/line just when I": { "audio": "sfx/line just when I.mp3" }
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 9.6667 }
+				]
+			}
+		},
+		"events": [
+			{ "name": "sfx/line just when I" }
+		]
+	},
+	"stand": {}
+}
+}

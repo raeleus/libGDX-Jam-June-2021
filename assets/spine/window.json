@@ -1,0 +1,90 @@
+{
+"skeleton": {
+	"hash": "M1wZ+ChasTazaJ9bsv2MBDQ3kZc",
+	"spine": "3.8.99",
+	"x": 306.05,
+	"y": 28.13,
+	"width": 445,
+	"height": 526,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "game/window-spotlight", "parent": "root", "length": 744.64, "rotation": -91.16, "x": 550.64, "y": 652.86 }
+],
+"slots": [
+	{ "name": "clip", "bone": "root", "attachment": "clip" },
+	{ "name": "game/window-spotlight", "bone": "game/window-spotlight", "attachment": "game/window-spotlight" },
+	{ "name": "game/window-shadow", "bone": "root", "attachment": "game/window-shadow" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"clip": {
+				"clip": {
+					"type": "clipping",
+					"end": "game/window-spotlight",
+					"vertexCount": 4,
+					"vertices": [ 325.89, 38.67, 315.7, 527.52, 733.67, 541.84, 737.25, 48.7 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"game/window-shadow": {
+				"game/window-shadow": { "x": 528.55, "y": 291.13, "width": 445, "height": 526 }
+			},
+			"game/window-spotlight": {
+				"game/window-spotlight": { "x": 357.55, "y": -14.86, "rotation": 91.16, "width": 414, "height": 769 }
+			}
+		}
+	}
+],
+"events": {
+	"sfx/line ahh thats it": { "audio": "sfx/line ahh thats it.mp3" },
+	"sfx/line im sorry that": { "audio": "sfx/line im sorry that.mp3" },
+	"sfx/line is that you slick2d": { "audio": "sfx/line is that you slick2d.mp3" }
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"game/window-spotlight": {
+				"rotate": [
+					{ "angle": -17.14, "curve": 0.481, "c2": 0.01, "c3": 0.552 },
+					{ "time": 1, "angle": 16.21, "curve": 0.582, "c2": 0.01, "c3": 0.416, "c4": 0.99 },
+					{ "time": 2, "angle": -17.14 }
+				]
+			}
+		}
+	},
+	"blink": {
+		"slots": {
+			"game/window-spotlight": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 5, "color": "ffffff82", "curve": "stepped" },
+					{ "time": 5.0333, "color": "ffffffff" },
+					{ "time": 5.0667, "color": "ffffff82", "curve": "stepped" },
+					{ "time": 5.1333, "color": "ffffff82", "curve": "stepped" },
+					{ "time": 5.1667, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"speech": {
+		"slots": {
+			"game/window-shadow": {
+				"color": [
+					{ "time": 31.4333, "color": "ffffffff" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.6667, "name": "sfx/line is that you slick2d" },
+			{ "time": 12.3667, "name": "sfx/line im sorry that" },
+			{ "time": 24.1667, "name": "sfx/line ahh thats it" }
+		]
+	},
+	"stand": {}
+}
+}

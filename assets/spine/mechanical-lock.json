@@ -1,0 +1,124 @@
+{
+"skeleton": {
+	"hash": "OO7pGpBMPnBNprjUE9/zm+qt8Wc",
+	"spine": "3.8.99",
+	"x": -0.23,
+	"y": 0.09,
+	"width": 400.73,
+	"height": 400.41,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "game/lock", "parent": "root", "length": 129.24, "x": 199.6, "y": 196.36 },
+	{ "name": "game/lock-bobby-pin", "parent": "game/lock", "length": 82.97, "rotation": 178.58, "x": 2.87, "y": 7.18 }
+],
+"slots": [
+	{ "name": "clip", "bone": "root", "attachment": "clip" },
+	{ "name": "game/bg-mechanical-lock", "bone": "root", "attachment": "game/bg-mechanical-lock" },
+	{ "name": "game/lock", "bone": "game/lock", "attachment": "game/lock" },
+	{ "name": "game/lock-bobby-pin", "bone": "game/lock-bobby-pin", "attachment": "game/lock-bobby-pin" },
+	{ "name": "game/lock-screwdriver", "bone": "game/lock", "attachment": "game/lock-screwdriver" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"clip": {
+				"clip": {
+					"type": "clipping",
+					"end": "clip",
+					"vertexCount": 4,
+					"vertices": [ 0.35, 1.92, -0.23, 400.57, 401.18, 400.32, 400.73, 0.08 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"game/bg-mechanical-lock": {
+				"game/bg-mechanical-lock": { "x": 200, "y": 200, "width": 401, "height": 401 }
+			},
+			"game/lock": {
+				"game/lock": { "x": 4.16, "y": 3.3, "width": 116, "height": 125 }
+			},
+			"game/lock-bobby-pin": {
+				"game/lock-bobby-pin": { "x": 34.43, "y": -0.45, "rotation": -66.54, "width": 38, "height": 76 }
+			},
+			"game/lock-screwdriver": {
+				"game/lock-screwdriver": { "x": 97.99, "y": -65.67, "width": 199, "height": 131 }
+			}
+		}
+	}
+],
+"animations": {
+	"bobby-pin": {
+		"bones": {
+			"game/lock-bobby-pin": {
+				"rotate": [
+					{},
+					{ "time": 1, "angle": -179.05 }
+				]
+			}
+		}
+	},
+	"broken": {
+		"bones": {
+			"game/lock-bobby-pin": {
+				"translate": [
+					{},
+					{ "time": 0.3333, "y": -242 }
+				]
+			}
+		}
+	},
+	"close": {
+		"bones": {
+			"game/lock": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "angle": -35.85 },
+					{ "time": 1 }
+				]
+			}
+		}
+	},
+	"far": {
+		"bones": {
+			"game/lock": {
+				"rotate": [
+					{},
+					{ "time": 0.2667, "angle": -8.46 },
+					{ "time": 0.5 }
+				]
+			}
+		}
+	},
+	"no-bobby-pin": {
+		"slots": {
+			"game/lock-bobby-pin": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"no-screwdriver": {
+		"slots": {
+			"game/lock-screwdriver": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"unlocked": {
+		"bones": {
+			"game/lock": {
+				"rotate": [
+					{},
+					{ "time": 0.6667, "angle": -91.49 }
+				]
+			}
+		}
+	}
+}
+}

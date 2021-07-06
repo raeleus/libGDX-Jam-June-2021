@@ -1,0 +1,114 @@
+sfx/click.mp3
+sfx/dra dra dra.mp3
+sfx/electronic access.mp3
+sfx/intro-pistol.mp3
+sfx/line a bunch of useless.mp3
+sfx/line a collection of.mp3
+sfx/line a constant reminder.mp3
+sfx/line a jumble of.mp3
+sfx/line a queen has.mp3
+sfx/line ahh thats it.mp3
+sfx/line an addictive narcotic.mp3
+sfx/line an array of.mp3
+sfx/line an industrial fridge.mp3
+sfx/line and just like.mp3
+sfx/line apparently this was.mp3
+sfx/line common meeting area.mp3
+sfx/line cut to the chase.mp3
+sfx/line dammit looks like.mp3
+sfx/line damn the killer.mp3
+sfx/line die libgdx scum.mp3
+sfx/line do i look like.mp3
+sfx/line doctor mgsx head.mp3
+sfx/line drying the chemical.mp3
+sfx/line empty must be.mp3
+sfx/line essential supplies and.mp3
+sfx/line everything here is.mp3
+sfx/line experimentation in the.mp3
+sfx/line fancy technological contraption.mp3
+sfx/line got em.mp3
+sfx/line great for cleaning.mp3
+sfx/line hello hello need.mp3
+sfx/line hey sugah.mp3
+sfx/line hmm a mechanical.mp3
+sfx/line hopefully somebody will.mp3
+sfx/line huh a secret.mp3
+sfx/line I can't leave.mp3
+sfx/line I need my ammo.mp3
+sfx/line i need something to.mp3
+sfx/line I need to pack.mp3
+sfx/line I pull my.mp3
+sfx/line I should equip.mp3
+sfx/line I think the cookstaff.mp3
+sfx/line i turn to hang.mp3
+sfx/line I would destroy.mp3
+sfx/line i'll never get.mp3
+sfx/line im not carrying.mp3
+sfx/line im sorry that.mp3
+sfx/line is that you slick2d.mp3
+sfx/line its dark i.mp3
+sfx/line june twentieth why.mp3
+sfx/line just when I.mp3
+sfx/line leads to the.mp3
+sfx/line loaded im feeling.mp3
+sfx/line looks like oil.mp3
+sfx/line mahogany where did.mp3
+sfx/line maybe that half.mp3
+sfx/line most of the.mp3
+sfx/line my god what.mp3
+sfx/line my office if.mp3
+sfx/line noone ever suspects.mp3
+sfx/line noone is coming into.mp3
+sfx/line oil stains they.mp3
+sfx/line or maybe something.mp3
+sfx/line panda never had.mp3
+sfx/line panda stay with.mp3
+sfx/line peanut panda no.mp3
+sfx/line people should clean.mp3
+sfx/line pipe an engineering.mp3
+sfx/line primary loading bay.mp3
+sfx/line production is down.mp3
+sfx/line ship life is.mp3
+sfx/line slash wounds it.mp3
+sfx/line something came through.mp3
+sfx/line something smells rotten.mp3
+sfx/line subject discharges a.mp3
+sfx/line subject has escaped.mp3
+sfx/line thankfully im covered.mp3
+sfx/line the clock ticks.mp3
+sfx/line the day draws.mp3
+sfx/line the door is secured.mp3
+sfx/line the lower decks.mp3
+sfx/line the main generator.mp3
+sfx/line the office of.mp3
+sfx/line the perp came.mp3
+sfx/line the ship is.mp3
+sfx/line the surrounding tissue.mp3
+sfx/line the telltale markings.mp3
+sfx/line the verifier high.mp3
+sfx/line the wound is.mp3
+sfx/line there she is.mp3
+sfx/line they never gave.mp3
+sfx/line they say time.mp3
+sfx/line theyre operating out.mp3
+sfx/line this floor is.mp3
+sfx/line this is not.mp3
+sfx/line this is very damning.mp3
+sfx/line this isnt a time.mp3
+sfx/line those crooks you.mp3
+sfx/line thoughtful pancakes.mp3
+sfx/line tick tock.mp3
+sfx/line traitor looks like.mp3
+sfx/line ugh i dont think.mp3
+sfx/line uss libgdx.mp3
+sfx/line vertical take off.mp3
+sfx/line vortex rounds it.mp3
+sfx/line what the door.mp3
+sfx/line yeah what's it.mp3
+sfx/line you think you.mp3
+sfx/line zebra why.mp3
+sfx/machine-gun.mp3
+sfx/pin.mp3
+sfx/revolver.mp3
+sfx/unlock.mp3
+sfx/zzz.mp3

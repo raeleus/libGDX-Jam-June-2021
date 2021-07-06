@@ -1,0 +1,149 @@
+{
+"skeleton": {
+	"hash": "BqyfOj8bP1M8ukdUoO2BkLy84Yw",
+	"spine": "3.8.99",
+	"x": -0.5,
+	"y": -0.5,
+	"width": 401,
+	"height": 401,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-mess-hall", "bone": "root", "attachment": "game/bg-mess-hall" },
+	{ "name": "game/mess-hall-arrow", "bone": "root", "dark": "000000", "attachment": "game/mess-hall-arrow" },
+	{ "name": "game/mess-hall-clock", "bone": "root", "dark": "000000", "attachment": "game/mess-hall-clock" },
+	{ "name": "game/mess-hall-kitchen", "bone": "root", "dark": "000000", "attachment": "game/mess-hall-kitchen" },
+	{ "name": "game/mess-hall-meal", "bone": "root", "dark": "000000", "attachment": "game/mess-hall-meal" },
+	{ "name": "game/mess-hall-note", "bone": "root", "dark": "000000", "attachment": "game/mess-hall-note" },
+	{ "name": "arrow", "bone": "root", "attachment": "arrow" },
+	{ "name": "clock", "bone": "root", "attachment": "clock" },
+	{ "name": "kitchen", "bone": "root", "attachment": "kitchen" },
+	{ "name": "meal", "bone": "root", "attachment": "meal" },
+	{ "name": "note", "bone": "root", "attachment": "note" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arrow": {
+				"arrow": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 273.28, 40.49, 254.89, 24.34, 311.71, 19.33, 316.16, 73.91, 300.01, 63.33, 272.72, 90.62, 248.21, 70.57 ]
+				}
+			},
+			"clock": {
+				"clock": {
+					"type": "boundingbox",
+					"vertexCount": 8,
+					"vertices": [ 353.71, 336.94, 346.67, 341.29, 345.67, 348.33, 350.02, 356.37, 358.06, 359.05, 367.11, 355.03, 368.11, 345.65, 362.75, 338.61 ]
+				}
+			},
+			"game/bg-mess-hall": {
+				"game/bg-mess-hall": { "x": 200, "y": 200, "width": 401, "height": 401 }
+			},
+			"game/mess-hall-arrow": {
+				"game/mess-hall-arrow": { "x": 282.74, "y": 54.97, "width": 69, "height": 72 }
+			},
+			"game/mess-hall-clock": {
+				"game/mess-hall-clock": { "x": 356.83, "y": 347.96, "width": 23, "height": 24 }
+			},
+			"game/mess-hall-kitchen": {
+				"game/mess-hall-kitchen": { "x": 74.98, "y": 291.14, "width": 81, "height": 139 }
+			},
+			"game/mess-hall-meal": {
+				"game/mess-hall-meal": { "x": 170.23, "y": 169.16, "width": 58, "height": 50 }
+			},
+			"game/mess-hall-note": {
+				"game/mess-hall-note": { "x": 102.83, "y": 139.64, "width": 28, "height": 22 }
+			},
+			"kitchen": {
+				"kitchen": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 36.13, 222.7, 35.79, 290.04, 39.81, 347.99, 70.3, 359.05, 87.72, 359.38, 115.19, 346.65, 111.5, 225.38 ]
+				}
+			},
+			"meal": {
+				"meal": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ 158.4, 145.32, 198.94, 175.13, 181.52, 192.89, 140.98, 163.07 ]
+				}
+			},
+			"note": {
+				"note": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ 95.42, 128.23, 116.53, 144.98, 109.49, 151.01, 89.39, 135.94 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"arrow": {
+		"slots": {
+			"game/mess-hall-arrow": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"clock": {
+		"slots": {
+			"game/mess-hall-clock": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"kitchen": {
+		"slots": {
+			"game/mess-hall-kitchen": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"meal": {
+		"slots": {
+			"game/mess-hall-meal": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"no-meal": {
+		"slots": {
+			"game/mess-hall-meal": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"meal": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"note": {
+		"slots": {
+			"game/mess-hall-note": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}

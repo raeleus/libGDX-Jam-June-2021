@@ -1,0 +1,233 @@
+{
+"skeleton": { "hash": "MHjGMDP5ezuSJXAyMsJ7EkVwLMA", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "game/port-hole-star", "parent": "root", "length": 453.68, "rotation": 0.3, "x": 191.84, "y": 234.58 },
+	{ "name": "game/port-hole-star2", "parent": "root", "length": 453.68, "rotation": 0.3, "x": 191.84, "y": 234.58 }
+],
+"slots": [
+	{ "name": "game/bg-receiving", "bone": "root", "attachment": "game/bg-receiving" },
+	{ "name": "clip", "bone": "root", "attachment": "clip" },
+	{ "name": "game/port-hole-star", "bone": "game/port-hole-star", "attachment": "game/port-hole-star" },
+	{ "name": "game/port-hole-star2", "bone": "game/port-hole-star2", "attachment": "game/port-hole-star" },
+	{ "name": "game/receiving-arrow", "bone": "root", "dark": "000000", "attachment": "game/receiving-arrow" },
+	{ "name": "game/receiving-storage1", "bone": "root", "dark": "000000", "attachment": "game/receiving-storage" },
+	{ "name": "game/receiving-storage2", "bone": "root", "dark": "000000", "attachment": "game/receiving-storage" },
+	{ "name": "game/receiving-storage3", "bone": "root", "dark": "000000", "attachment": "game/receiving-storage" },
+	{ "name": "game/receiving-storage4", "bone": "root", "dark": "000000", "attachment": "game/receiving-storage" },
+	{ "name": "game/receiving-vtol", "bone": "root", "dark": "000000", "attachment": "game/receiving-vtol" },
+	{ "name": "arrow", "bone": "root", "attachment": "arrow" },
+	{ "name": "storage1", "bone": "root", "attachment": "storage1" },
+	{ "name": "storage2", "bone": "root", "attachment": "storage2" },
+	{ "name": "storage3", "bone": "root", "attachment": "storage3" },
+	{ "name": "storage4", "bone": "root", "attachment": "storage4" },
+	{ "name": "vtol", "bone": "root", "attachment": "vtol" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arrow": {
+				"arrow": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 186.69, 82.83, 186.04, 57.39, 174.13, 57.71, 195.06, 30.66, 213.73, 58.35, 203.11, 57.71, 203.11, 82.18 ]
+				}
+			},
+			"clip": {
+				"clip": {
+					"type": "clipping",
+					"end": "game/port-hole-star2",
+					"vertexCount": 4,
+					"vertices": [ 117.5, 188.28, 120.83, 269.31, 281.04, 270.79, 278.82, 190.13 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"game/bg-receiving": {
+				"game/bg-receiving": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			},
+			"game/port-hole-star": {
+				"game/port-hole-star": { "x": 226.44, "y": -0.39, "rotation": -0.3, "width": 457, "height": 4 }
+			},
+			"game/port-hole-star2": {
+				"game/port-hole-star": { "x": 226.44, "y": -0.39, "rotation": -0.3, "width": 457, "height": 4 }
+			},
+			"game/receiving-arrow": {
+				"game/receiving-arrow": { "x": 194.58, "y": 58.42, "width": 39, "height": 55 }
+			},
+			"game/receiving-storage1": {
+				"game/receiving-storage": { "x": 83.16, "y": 179.7, "width": 45, "height": 51 }
+			},
+			"game/receiving-storage2": {
+				"game/receiving-storage": { "x": 129.5, "y": 180.68, "width": 45, "height": 51 }
+			},
+			"game/receiving-storage3": {
+				"game/receiving-storage": { "x": 177.82, "y": 181.67, "width": 45, "height": 51 }
+			},
+			"game/receiving-storage4": {
+				"game/receiving-storage": { "x": 225.14, "y": 182.66, "width": 45, "height": 51 }
+			},
+			"game/receiving-vtol": {
+				"game/receiving-vtol": { "x": 301.07, "y": 130.4, "width": 110, "height": 100 }
+			},
+			"storage1": {
+				"storage1": {
+					"type": "boundingbox",
+					"vertexCount": 6,
+					"vertices": [ 61.11, 155.28, 60.46, 188.44, 70.44, 204.54, 100.39, 205.19, 105.22, 189.09, 103.93, 155.6 ]
+				}
+			},
+			"storage2": {
+				"storage2": {
+					"type": "boundingbox",
+					"vertexCount": 6,
+					"vertices": [ 107.15, 156.24, 106.83, 189.09, 115.2, 204.54, 146.11, 205.19, 150.94, 189.73, 151.27, 156.56 ]
+				}
+			},
+			"storage3": {
+				"storage3": {
+					"type": "boundingbox",
+					"vertexCount": 6,
+					"vertices": [ 155.05, 156.45, 155.63, 189.34, 164.65, 206.51, 194.34, 205.92, 199.57, 190.79, 198.41, 157.33 ]
+				}
+			},
+			"storage4": {
+				"storage4": {
+					"type": "boundingbox",
+					"vertexCount": 6,
+					"vertices": [ 203.07, 157.91, 202.48, 191.08, 211.21, 206.8, 242.35, 206.8, 247.59, 192.25, 245.26, 157.91 ]
+				}
+			},
+			"vtol": {
+				"vtol": {
+					"type": "boundingbox",
+					"vertexCount": 53,
+					"vertices": [ 265.05, 127.64, 251.39, 128.86, 246.51, 132.03, 247.48, 154.97, 251.39, 161.56, 259.44, 162.04, 269.93, 159.12, 266.76, 146.67, 274.81, 143.26, 289.21, 149.11, 323.86, 162.29, 331.42, 162.29, 334.84, 159.36, 339.23, 160.58, 337.28, 168.14, 342.4, 165.46, 345.33, 172.05, 348.74, 179.12, 353.38, 173.51, 353.38, 167.17, 352.65, 154.48, 355.58, 149.11, 357.28, 139.11, 350.21, 143.01, 346.06, 148.14, 338.01, 146.18, 338.74, 137.16, 336.06, 131.3, 331.66, 127.4, 315.05, 117.67, 311.66, 115.68, 311.41, 110.8, 319.35, 117.76, 331.42, 114.71, 332.4, 110.8, 332.88, 102.75, 331.66, 89.58, 329.47, 85.18, 322.64, 80.79, 312.88, 83.48, 310.44, 87.62, 311.17, 95.68, 310.19, 100.56, 299.76, 107.62, 295.06, 104.22, 292.38, 101.29, 288.48, 97.14, 281.64, 93.48, 264.81, 92.5, 259.44, 96.9, 257.24, 102.75, 260.17, 108.36, 262.61, 120.81 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"game/port-hole-star": {
+				"rotate": [
+					{ "angle": -18.28, "curve": "stepped" },
+					{ "time": 0.1667, "angle": -18.28 },
+					{ "time": 0.2, "angle": 0.84, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0.84 },
+					{ "time": 0.4333, "angle": 81.55, "curve": "stepped" },
+					{ "time": 0.6333, "angle": 81.55 },
+					{ "time": 0.6667, "angle": -18.28 }
+				],
+				"translate": [
+					{ "x": 111.2, "y": -37.25 },
+					{ "time": 0.1667 },
+					{ "time": 0.2, "x": 102.3, "y": 1.67 },
+					{ "time": 0.4 },
+					{ "time": 0.4333, "x": 23.35, "y": 43.37 },
+					{ "time": 0.6333 },
+					{ "time": 0.6667, "x": 111.2, "y": -37.25 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.1667, "x": 0, "curve": "stepped" },
+					{ "time": 0.2 },
+					{ "time": 0.4, "x": 0, "curve": "stepped" },
+					{ "time": 0.4333 },
+					{ "time": 0.6333, "x": 0, "curve": "stepped" },
+					{ "time": 0.6667 }
+				]
+			},
+			"game/port-hole-star2": {
+				"rotate": [
+					{ "angle": -170.46, "curve": "stepped" },
+					{ "time": 0.0333, "angle": -170.46 },
+					{ "time": 0.0667, "angle": -112.9, "curve": "stepped" },
+					{ "time": 0.2667, "angle": -112.9 },
+					{ "time": 0.3, "angle": 169.35, "curve": "stepped" },
+					{ "time": 0.4667, "angle": 169.35 },
+					{ "time": 0.5, "angle": -170.46 }
+				],
+				"translate": [
+					{ "x": -15.85, "y": -5.47 },
+					{ "time": 0.0333 },
+					{ "time": 0.0667, "x": -23.91, "y": -63.94 },
+					{ "time": 0.1667, "x": -11.95, "y": -31.97 },
+					{ "time": 0.2667 },
+					{ "time": 0.3, "x": -91.18, "y": 7.23 },
+					{ "time": 0.4667 },
+					{ "time": 0.5, "x": -95.08, "y": -32.8 },
+					{ "time": 0.6667, "x": -15.85, "y": -5.47 }
+				],
+				"scale": [
+					{ "x": 0.167 },
+					{ "time": 0.0333, "x": 0, "curve": "stepped" },
+					{ "time": 0.0667 },
+					{ "time": 0.1667, "x": 0.5 },
+					{ "time": 0.2667, "x": 0, "curve": "stepped" },
+					{ "time": 0.3 },
+					{ "time": 0.4667, "x": 0, "curve": "stepped" },
+					{ "time": 0.5 },
+					{ "time": 0.6667, "x": 0.167 }
+				]
+			}
+		}
+	},
+	"arrow": {
+		"slots": {
+			"game/receiving-arrow": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"storage1": {
+		"slots": {
+			"game/receiving-storage1": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"storage2": {
+		"slots": {
+			"game/receiving-storage2": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"storage3": {
+		"slots": {
+			"game/receiving-storage3": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"storage4": {
+		"slots": {
+			"game/receiving-storage4": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"vtol": {
+		"slots": {
+			"game/receiving-vtol": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}

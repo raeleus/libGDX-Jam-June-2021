@@ -1,0 +1,84 @@
+{
+"skeleton": { "hash": "/HarP4Elo1BSZt9aNH9xL91SVUs", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-dark-hallway", "bone": "root", "attachment": "game/bg-dark-hallway" },
+	{ "name": "game/dark-hallway-arrow", "bone": "root", "dark": "000000", "attachment": "game/dark-hallway-arrow" },
+	{ "name": "game/dark-hallway-panda", "bone": "root", "dark": "000000", "attachment": "game/dark-hallway-panda" },
+	{ "name": "panda", "bone": "root", "attachment": "panda" },
+	{ "name": "arrow", "bone": "root", "attachment": "arrow" },
+	{ "name": "game/dark-hallway-exit", "bone": "root", "dark": "000000", "attachment": "game/dark-hallway-exit" },
+	{ "name": "exit", "bone": "root", "attachment": "exit" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arrow": {
+				"arrow": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 239.18, 39.27, 254.45, 39.27, 251.53, 72.42, 283.38, 73.4, 285, 40.25, 297.35, 40.25, 271.35, 4.82 ]
+				}
+			},
+			"exit": {
+				"exit": {
+					"type": "boundingbox",
+					"vertexCount": 11,
+					"vertices": [ 193.76, 223.97, 191.2, 229.46, 193.03, 235.92, 197.17, 241.05, 201.69, 243.49, 207.42, 241.9, 210.47, 236.53, 210.11, 230.31, 208.4, 226.16, 204.62, 223.24, 199.13, 222.14 ]
+				}
+			},
+			"game/bg-dark-hallway": {
+				"game/bg-dark-hallway": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			},
+			"game/dark-hallway-arrow": {
+				"game/dark-hallway-arrow": { "x": 267.13, "y": 39.81, "width": 60, "height": 69 }
+			},
+			"game/dark-hallway-exit": {
+				"game/dark-hallway-exit": { "x": 200.65, "y": 233.17, "width": 22, "height": 24 }
+			},
+			"game/dark-hallway-panda": {
+				"game/dark-hallway-panda": { "x": 135.5, "y": 96.41, "width": 187, "height": 186 }
+			},
+			"panda": {
+				"panda": {
+					"type": "boundingbox",
+					"vertexCount": 46,
+					"vertices": [ 159.55, 3.52, 125.75, 19.12, 104.3, 25.3, 82.2, 34.4, 74.4, 52.92, 80.58, 71.45, 85.45, 75.67, 82.2, 82.17, 69.2, 83.47, 57.5, 92.9, 54.58, 106.87, 53.93, 119.55, 48.73, 128.65, 49.7, 134.82, 42.55, 142.3, 42.55, 151.07, 49.05, 155.3, 54.58, 154.97, 61.73, 165.05, 73.75, 177.07, 74.08, 185.52, 79.6, 189.75, 86.1, 185.52, 88.7, 178.05, 97.15, 176.1, 108.2, 177.72, 122.5, 173.82, 133.55, 160.82, 135.18, 148.15, 135.5, 142.95, 148.5, 138.4, 152.4, 134.82, 159.55, 142.3, 167.03, 140.02, 175.15, 141, 195.3, 140.67, 211.23, 129.95, 215.45, 115.65, 212.53, 104.92, 207, 97.12, 218.38, 90.3, 224.55, 71.77, 228.78, 53.57, 222.6, 28.87, 207.65, 13.92, 188.48, 5.15 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"arrow": {
+		"slots": {
+			"game/dark-hallway-arrow": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"exit": {
+		"slots": {
+			"game/dark-hallway-exit": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"panda": {
+		"slots": {
+			"game/dark-hallway-panda": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}

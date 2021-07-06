@@ -1,0 +1,135 @@
+{
+"skeleton": {
+	"hash": "QSlu0AfZDq0sC9DXI7r+/wTf5Mo",
+	"spine": "3.8.99",
+	"x": -0.5,
+	"y": -0.5,
+	"width": 401,
+	"height": 401,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-kitchen", "bone": "root", "attachment": "game/bg-kitchen" },
+	{ "name": "game/kitchen-counter", "bone": "root", "dark": "000000", "attachment": "game/kitchen-counter" },
+	{ "name": "game/kitchen-pancakes", "bone": "root", "dark": "000000", "attachment": "game/kitchen-pancakes" },
+	{ "name": "game/kitchen-refrigerator", "bone": "root", "dark": "000000", "attachment": "game/kitchen-refrigerator" },
+	{ "name": "game/dark-hallway-arrow", "bone": "root", "dark": "000000", "attachment": "game/dark-hallway-arrow" },
+	{ "name": "game/kitchen-cabinet", "bone": "root", "dark": "000000", "attachment": "game/kitchen-cabinet" },
+	{ "name": "arrow", "bone": "root", "attachment": "arrow" },
+	{ "name": "cabinet", "bone": "root", "attachment": "cabinet" },
+	{ "name": "counter", "bone": "root", "attachment": "counter" },
+	{ "name": "pancakes", "bone": "root", "attachment": "pancakes" },
+	{ "name": "refrigerator", "bone": "root", "attachment": "refrigerator" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arrow": {
+				"arrow": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 188.14, 84.3, 190.72, 52.28, 176, 50.81, 206.91, 17.69, 232.67, 53.75, 221.26, 52.65, 217.21, 85.77 ]
+				}
+			},
+			"cabinet": {
+				"cabinet": {
+					"type": "boundingbox",
+					"vertexCount": 6,
+					"vertices": [ 297.44, 108.95, 297.07, 244.37, 308.84, 255.05, 369.93, 255.78, 376.92, 246.21, 377.29, 111.53 ]
+				}
+			},
+			"counter": {
+				"counter": {
+					"type": "boundingbox",
+					"vertexCount": 13,
+					"vertices": [ 135.15, 115.58, 134.41, 181.81, 126.68, 181.08, 127.42, 190.28, 146.56, 205, 148.03, 196.17, 169.37, 196.9, 169.37, 212.73, 262.84, 214.2, 279.77, 193.22, 278.3, 184.02, 269.84, 184.02, 266.16, 115.58 ]
+				}
+			},
+			"game/bg-kitchen": {
+				"game/bg-kitchen": { "x": 200, "y": 200, "width": 401, "height": 401 }
+			},
+			"game/dark-hallway-arrow": {
+				"game/dark-hallway-arrow": { "x": 204.27, "y": 52.05, "width": 60, "height": 69 }
+			},
+			"game/kitchen-cabinet": {
+				"game/kitchen-cabinet": { "x": 336.75, "y": 182.87, "width": 83, "height": 148 }
+			},
+			"game/kitchen-counter": {
+				"game/kitchen-counter": { "x": 201.51, "y": 166.31, "width": 152, "height": 104 }
+			},
+			"game/kitchen-pancakes": {
+				"game/kitchen-pancakes": { "x": 157.35, "y": 211.57, "width": 23, "height": 28 }
+			},
+			"game/kitchen-refrigerator": {
+				"game/kitchen-refrigerator": { "x": 60.2, "y": 185.08, "width": 80, "height": 140 }
+			},
+			"pancakes": {
+				"pancakes": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ 147.97, 196.16, 145.62, 224.21, 167.96, 225.72, 169.48, 196.83 ]
+				}
+			},
+			"refrigerator": {
+				"refrigerator": {
+					"type": "boundingbox",
+					"vertexCount": 8,
+					"vertices": [ 39.89, 114.57, 20.4, 131.28, 20.4, 246.58, 32.65, 252.71, 84.45, 256.61, 95.59, 248.81, 100.05, 121.81, 87.24, 115.69 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"arrow": {
+		"slots": {
+			"game/dark-hallway-arrow": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"cabinet": {
+		"slots": {
+			"game/kitchen-cabinet": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"counter": {
+		"slots": {
+			"game/kitchen-counter": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"pancakes": {
+		"slots": {
+			"game/kitchen-pancakes": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"refrigerator": {
+		"slots": {
+			"game/kitchen-refrigerator": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}

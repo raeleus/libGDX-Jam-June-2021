@@ -1,0 +1,22 @@
+{
+"skeleton": { "hash": "XE47LRX1HUmV1PcDxKu8DGlG0ZY", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-pancakes", "bone": "root", "attachment": "game/bg-pancakes" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"game/bg-pancakes": {
+				"game/bg-pancakes": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

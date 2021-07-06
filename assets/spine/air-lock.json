@@ -1,0 +1,63 @@
+{
+"skeleton": { "hash": "uIJ/r/hZbS6PDvUDLgp7BsdsuRE", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-air-lock", "bone": "root", "attachment": "game/bg-air-lock" },
+	{ "name": "game/air-lock-door", "bone": "root", "dark": "000000", "attachment": "game/air-lock-door" },
+	{ "name": "game/air-lock-window", "bone": "root", "dark": "000000", "attachment": "game/air-lock-window" },
+	{ "name": "door", "bone": "root", "attachment": "door" },
+	{ "name": "window", "bone": "root", "attachment": "window" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"door": {
+				"door": {
+					"type": "boundingbox",
+					"vertexCount": 10,
+					"vertices": [ 191.51, 210.91, 165.99, 223.46, 152.63, 265.18, 158.7, 310.13, 184.22, 349.01, 211.35, 361.16, 244.97, 354.28, 264.41, 321.07, 270.48, 293.53, 266.43, 267.61 ]
+				}
+			},
+			"game/air-lock-door": {
+				"game/air-lock-door": { "x": 210.54, "y": 286.24, "width": 118, "height": 152 }
+			},
+			"game/air-lock-window": {
+				"game/air-lock-window": { "x": 98.36, "y": 227.11, "width": 77, "height": 85 }
+			},
+			"game/bg-air-lock": {
+				"game/bg-air-lock": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			},
+			"window": {
+				"window": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ 92.69, 185.8, 60.29, 233.99, 101.6, 267.61, 137.24, 225.08 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"door": {
+		"slots": {
+			"game/air-lock-door": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"window": {
+		"slots": {
+			"game/air-lock-window": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}

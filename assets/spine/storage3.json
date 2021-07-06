@@ -1,0 +1,105 @@
+{
+"skeleton": { "hash": "l0HHGJTxhCO4SBOcDsxNvmGsqcs", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-storage", "bone": "root", "attachment": "game/bg-storage" },
+	{ "name": "game/storage-body1", "bone": "root", "dark": "000000", "attachment": "game/storage-body1" },
+	{ "name": "game/storage-body2", "bone": "root", "dark": "000000", "attachment": "game/storage-body2" },
+	{ "name": "game/storage-balls", "bone": "root", "dark": "000000", "attachment": "game/storage-balls" },
+	{ "name": "game/storage-grease", "bone": "root", "dark": "000000", "attachment": "game/storage-grease" },
+	{ "name": "body1", "bone": "root", "attachment": "body1" },
+	{ "name": "balls", "bone": "root", "attachment": "balls" },
+	{ "name": "body2", "bone": "root", "attachment": "body2" },
+	{ "name": "grease", "bone": "root", "attachment": "grease" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"balls": {
+				"balls": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 183.82, 163.82, 180.27, 167.37, 184.26, 172.92, 193.36, 179.14, 202.47, 179.14, 206.91, 171.81, 207.13, 165.15 ]
+				}
+			},
+			"body1": {
+				"body1": {
+					"type": "boundingbox",
+					"vertexCount": 30,
+					"vertices": [ 179.38, 138.29, 176.27, 126.97, 154.29, 116.31, 152.29, 109.21, 144.08, 106.1, 139.64, 109.21, 130.98, 116.09, 131.2, 126.08, 132.31, 131.41, 127.43, 130.52, 120.99, 134.07, 111.89, 156.05, 115.66, 168.7, 118.33, 174.7, 111.67, 179.8, 109.89, 187.79, 115.22, 200.45, 123.43, 205.78, 133.87, 204, 138.31, 196.45, 134.76, 185.35, 139.86, 180.69, 146.97, 179.58, 149.19, 173.59, 154.29, 169.15, 157.4, 161.15, 164.73, 155.16, 166.28, 145.61, 170.28, 139.18, 174.94, 139.62 ]
+				}
+			},
+			"body2": {
+				"body2": {
+					"type": "boundingbox",
+					"vertexCount": 45,
+					"vertices": [ 230.88, 106.99, 225.33, 112.09, 230.22, 120.31, 237.54, 128.74, 235.54, 146.5, 229.77, 159.38, 224.89, 157.6, 224, 148.5, 226.89, 145.17, 222.22, 143.39, 220.23, 147.17, 218.01, 152.5, 220, 161.6, 224.67, 171.14, 229.77, 173.81, 233.32, 178.25, 228.88, 182.91, 227.55, 192.01, 232.66, 192.46, 239.76, 197.34, 247.53, 197.56, 251.31, 192.23, 256.19, 191.12, 251.31, 184.24, 249.75, 178.03, 258.19, 179.8, 259.74, 194.01, 265.29, 192.9, 268.4, 182.69, 263.74, 175.58, 254.19, 166.26, 254.19, 155.6, 249.31, 144.95, 267.96, 127.85, 262.18, 116.31, 270.18, 109.87, 264.4, 106.32, 253.08, 107.43, 249.97, 113.2, 253.3, 120.08, 257.52, 128.74, 246.64, 134.51, 245.09, 127.85, 235.77, 114.76, 237.32, 107.43 ]
+				}
+			},
+			"game/bg-storage": {
+				"game/bg-storage": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			},
+			"game/storage-balls": {
+				"game/storage-balls": { "x": 194.12, "y": 171.91, "width": 26, "height": 16 }
+			},
+			"game/storage-body1": {
+				"game/storage-body1": { "x": 144.44, "y": 156.19, "width": 71, "height": 101 }
+			},
+			"game/storage-body2": {
+				"game/storage-body2": { "x": 243.3, "y": 152.64, "width": 52, "height": 92 }
+			},
+			"game/storage-grease": {
+				"game/storage-grease": { "x": 200.72, "y": 121.71, "width": 24, "height": 26 }
+			},
+			"grease": {
+				"grease": {
+					"type": "boundingbox",
+					"vertexCount": 12,
+					"vertices": [ 198.25, 116.98, 190.92, 120.31, 192.25, 126.97, 197.36, 129.19, 201.58, 128.3, 204.69, 132.52, 210.01, 132.07, 210.46, 123.41, 207.35, 118.97, 207.57, 113.42, 203.35, 110.32, 198.91, 112.54 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"balls": {
+		"slots": {
+			"game/storage-balls": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"body1": {
+		"slots": {
+			"game/storage-body1": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"body2": {
+		"slots": {
+			"game/storage-body2": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"grease": {
+		"slots": {
+			"game/storage-grease": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}

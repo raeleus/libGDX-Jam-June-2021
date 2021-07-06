@@ -1,0 +1,293 @@
+{
+"skeleton": {
+	"hash": "YAq5YddK/of/ePJHxaFndjxgOb4",
+	"spine": "3.8.99",
+	"x": 29.15,
+	"y": -0.72,
+	"width": 971.34,
+	"height": 576.54,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "game/ferocious-z", "parent": "root", "length": 241.08, "rotation": -0.69, "x": 880.13, "y": 82.59 },
+	{ "name": "game/dragon-queen", "parent": "root", "length": 165.12, "rotation": -1.01, "x": 215.38, "y": 141.03 },
+	{ "name": "game/fly", "parent": "game/ferocious-z", "length": 55.94, "rotation": 2.99, "x": -329.51, "y": 138.74 },
+	{ "name": "game/clock-hour", "parent": "root", "length": 82.74, "rotation": 40.5, "x": 528.94, "y": 292.72 },
+	{ "name": "game/clock-minute", "parent": "root", "length": 120.76, "rotation": 20.38, "x": 530.06, "y": 289.37 },
+	{ "name": "game/clock-second", "parent": "root", "length": 140.94, "rotation": 87.1, "x": 527.82, "y": 287.13 }
+],
+"slots": [
+	{ "name": "clip", "bone": "root", "attachment": "clip" },
+	{ "name": "game/dragon-queen", "bone": "game/dragon-queen", "attachment": "game/dragon-queen" },
+	{ "name": "game/ferocious-z", "bone": "game/ferocious-z", "attachment": "game/ferocious-z" },
+	{ "name": "game/fly", "bone": "game/fly", "attachment": "game/fly" },
+	{ "name": "path", "bone": "root", "attachment": "path" },
+	{ "name": "game/bg-clock", "bone": "root", "attachment": "game/bg-clock" },
+	{ "name": "game/clock-hour", "bone": "game/clock-hour", "attachment": "game/clock-hour" },
+	{ "name": "game/clock-minute", "bone": "game/clock-minute", "attachment": "game/clock-minute" },
+	{ "name": "game/clock-second", "bone": "game/clock-second", "attachment": "game/clock-second" }
+],
+"path": [
+	{
+		"name": "path",
+		"bones": [ "game/fly" ],
+		"target": "path",
+		"rotateMix": 0
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"clip": {
+				"clip": {
+					"type": "clipping",
+					"end": "clip",
+					"vertexCount": 4,
+					"vertices": [ -1.32, -0.72, 0.61, 574.56, 1023.63, 575.86, 1024.9, -0.6 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"game/bg-clock": {
+				"game/bg-clock": { "x": 524.05, "y": 284.55, "width": 400, "height": 400 }
+			},
+			"game/clock-hour": {
+				"game/clock-hour": { "x": 43.02, "y": -1.61, "rotation": 0.77, "width": 77, "height": 37 }
+			},
+			"game/clock-minute": {
+				"game/clock-minute": { "x": 59.8, "y": 2.27, "rotation": 1.06, "width": 116, "height": 4 }
+			},
+			"game/clock-second": {
+				"game/clock-second": { "x": 56.16, "y": 1.62, "rotation": -1.82, "width": 117, "height": 3 }
+			},
+			"game/dragon-queen": {
+				"game/dragon-queen": { "x": -10.87, "y": 36.34, "rotation": 1.01, "width": 352, "height": 798 }
+			},
+			"game/ferocious-z": {
+				"game/ferocious-z": { "x": -29.77, "y": -196.15, "rotation": 0.69, "width": 305, "height": 1383 }
+			},
+			"game/fly": {
+				"game/fly": { "x": 2.2, "y": 4.75, "rotation": -2.29, "width": 33, "height": 30 }
+			},
+			"path": {
+				"path": {
+					"type": "path",
+					"lengths": [ 450.6, 777.61, 1096.5, 1482.86, 1814.08, 2085.86, 2415.94, 2864.29, 3403.66, 3866.79, 4395.1 ],
+					"vertexCount": 33,
+					"vertices": [ 765.74, 119.96, 716.61, -4.32, 667.49, -128.61, 318.02, 141.64, 407.84, 214.62, 497.67, 287.6, 489.25, 537.43, 587.49, 405.5, 685.74, 273.57, 764.33, 119.18, 654.86, 172.52, 545.39, 225.85, 247.85, 237.08, 362.93, 329.71, 478.02, 422.34, 587.49, 450.41, 663.28, 383.04, 739.07, 315.67, 943.98, 234.27, 826.09, 248.31, 708.19, 262.34, 595.91, 32.17, 545.39, 105.15, 494.86, 178.13, 233.81, 531.81, 376.97, 467.25, 520.12, 402.69, 775.56, 63.04, 702.58, 60.24, 629.6, 57.43, 542.58, 450.41, 621.18, 489.71, 699.77, 529.01 ]
+				}
+			}
+		}
+	}
+],
+"events": {
+	"sfx/line and just like": { "audio": "sfx/line and just like.mp3" },
+	"sfx/line a queen has": { "audio": "sfx/line a queen has.mp3" },
+	"sfx/line cut to the chase": { "audio": "sfx/line cut to the chase.mp3" },
+	"sfx/line hey sugah": { "audio": "sfx/line hey sugah.mp3" },
+	"sfx/line i turn to hang": { "audio": "sfx/line i turn to hang.mp3" },
+	"sfx/line maybe that half": { "audio": "sfx/line maybe that half.mp3" },
+	"sfx/line or maybe something": { "audio": "sfx/line or maybe something.mp3" },
+	"sfx/line the clock ticks": { "audio": "sfx/line the clock ticks.mp3" },
+	"sfx/line the day draws": { "audio": "sfx/line the day draws.mp3" },
+	"sfx/line the lower decks": { "audio": "sfx/line the lower decks.mp3" },
+	"sfx/line theyre operating out": { "audio": "sfx/line theyre operating out.mp3" },
+	"sfx/line those crooks you": { "audio": "sfx/line those crooks you.mp3" },
+	"sfx/line yeah what's it": { "audio": "sfx/line yeah what's it.mp3" }
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"game/bg-clock": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 10.1667, "color": "ffffff00" },
+					{ "time": 10.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 11.4, "color": "ffffffff" },
+					{ "time": 12.1, "color": "ffffff00" }
+				]
+			},
+			"game/clock-hour": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 10.1667, "color": "ffffff00" },
+					{ "time": 10.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 11.4, "color": "ffffffff" },
+					{ "time": 12.1, "color": "ffffff00" }
+				]
+			},
+			"game/clock-minute": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 10.1667, "color": "ffffff00" },
+					{ "time": 10.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 11.4, "color": "ffffffff" },
+					{ "time": 12.1, "color": "ffffff00" }
+				]
+			},
+			"game/clock-second": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 10.1667, "color": "ffffff00" },
+					{ "time": 10.5333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 11.4, "color": "ffffffff" },
+					{ "time": 12.1, "color": "ffffff00" }
+				]
+			},
+			"game/dragon-queen": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 15.4333, "color": "ffffff00" },
+					{ "time": 15.6667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 47.3, "color": "ffffffff" },
+					{ "time": 47.6333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 15.4333, "name": "game/dragon-queen" },
+					{ "time": 18.3333, "name": null },
+					{ "time": 22.6, "name": "game/dragon-queen" },
+					{ "time": 26.6, "name": null },
+					{ "time": 29.8333, "name": "game/dragon-queen" },
+					{ "time": 34.7, "name": null },
+					{ "time": 40.2, "name": "game/dragon-queen" }
+				]
+			},
+			"game/ferocious-z": {
+				"attachment": [
+					{ "time": 2.2333, "name": null },
+					{ "time": 18.3333, "name": "game/ferocious-z" },
+					{ "time": 22.6, "name": null },
+					{ "time": 26.6, "name": "game/ferocious-z" },
+					{ "time": 29.8333, "name": null },
+					{ "time": 34.7, "name": "game/ferocious-z" },
+					{ "time": 40.2, "name": null }
+				]
+			},
+			"game/fly": {
+				"color": [
+					{ "time": 2.6667, "color": "ffffff00" },
+					{ "time": 2.9333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 6.1, "color": "ffffffff" },
+					{ "time": 6.7, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 2.6667, "name": "game/fly" }
+				]
+			}
+		},
+		"bones": {
+			"game/dragon-queen": {
+				"translate": [
+					{ "time": 15.4333 },
+					{ "time": 15.6667, "x": 74.43, "y": 45.97 },
+					{ "time": 15.9, "x": 126.96, "y": -8.76 },
+					{ "time": 16.1333, "x": 181.69, "y": 45.97 },
+					{ "time": 16.3667, "x": 242.98, "y": -15.32 },
+					{ "time": 16.6, "x": 297.7, "y": 45.97 },
+					{ "time": 16.8333, "x": 378.7, "y": -2.19, "curve": "stepped" },
+					{ "time": 22.6, "x": 163.87, "y": -2.19 }
+				]
+			},
+			"game/ferocious-z": {
+				"translate": [
+					{ "x": -1156.48, "y": -437.89 },
+					{ "time": 2.2667, "x": 575.43, "y": -437.89, "curve": "stepped" },
+					{ "time": 18.3333, "x": -45.91, "y": -11.55, "curve": "stepped" },
+					{ "time": 56.8333, "x": -45.91, "y": -11.55 }
+				],
+				"scale": [
+					{ "x": 1.892, "y": 1.892 },
+					{ "time": 18.3333 }
+				]
+			},
+			"game/clock-minute": {
+				"rotate": [
+					{ "time": 10.1667 },
+					{ "time": 12.1, "angle": 90 }
+				]
+			},
+			"game/clock-second": {
+				"rotate": [
+					{ "time": 10.1667 },
+					{ "time": 10.6667, "angle": -90 },
+					{ "time": 11.2, "angle": 180 },
+					{ "time": 11.6667, "angle": 90 },
+					{ "time": 12.1 }
+				]
+			},
+			"game/clock-hour": {
+				"rotate": [
+					{ "time": 10.1667 },
+					{ "time": 12.1, "angle": 180 }
+				]
+			}
+		},
+		"path": {
+			"path": {
+				"position": [
+					{ "time": 2.6667 },
+					{ "time": 10.1, "position": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "name": "sfx/line the day draws" },
+			{ "time": 2.6667, "name": "sfx/line maybe that half" },
+			{ "time": 7, "name": "sfx/line or maybe something" },
+			{ "time": 10.7, "name": "sfx/line the clock ticks" },
+			{ "time": 12.5333, "name": "sfx/line i turn to hang" },
+			{ "time": 17.0333, "name": "sfx/line hey sugah" },
+			{ "time": 18.3333, "name": "sfx/line the lower decks" },
+			{ "time": 22.6, "name": "sfx/line a queen has" },
+			{ "time": 26.6, "name": "sfx/line cut to the chase" },
+			{ "time": 29.8333, "name": "sfx/line those crooks you" },
+			{ "time": 34.7, "name": "sfx/line yeah what's it" },
+			{ "time": 40.2, "name": "sfx/line theyre operating out" },
+			{ "time": 47.4333, "name": "sfx/line and just like" }
+		]
+	},
+	"stand": {
+		"slots": {
+			"game/bg-clock": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/clock-hour": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/clock-minute": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/clock-second": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/dragon-queen": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/ferocious-z": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/fly": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	}
+}
+}

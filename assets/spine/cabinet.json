@@ -1,0 +1,98 @@
+{
+"skeleton": { "hash": "Zh9OjXorGmMr9Jcv8ADoNXoxmVw", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-cabinet", "bone": "root", "attachment": "game/bg-cabinet" },
+	{ "name": "game/cabinet-bolt-cutters", "bone": "root", "dark": "000000", "attachment": "game/cabinet-bolt-cutters" },
+	{ "name": "game/cabinet-cleaners", "bone": "root", "dark": "000000", "attachment": "game/cabinet-cleaners" },
+	{ "name": "game/cabinet-toolbox", "bone": "root", "dark": "000000", "attachment": "game/cabinet-toolbox" },
+	{ "name": "bolt-cutters", "bone": "root", "attachment": "bolt-cutters" },
+	{ "name": "toolbox", "bone": "root", "attachment": "toolbox" },
+	{ "name": "cleaners", "bone": "root", "attachment": "cleaners" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bolt-cutters": {
+				"bolt-cutters": {
+					"type": "boundingbox",
+					"vertexCount": 10,
+					"vertices": [ 218.64, 64.7, 212.97, 76.85, 221.88, 97.91, 250.64, 148.13, 259.55, 148.13, 270.48, 138.41, 272.51, 129.5, 238.89, 86.98, 244.56, 80.5, 234.84, 68.35 ]
+				}
+			},
+			"cleaners": {
+				"cleaners": {
+					"type": "boundingbox",
+					"vertexCount": 7,
+					"vertices": [ 140.88, 275.3, 136.02, 338.48, 153.03, 351.03, 231.2, 353.87, 229.17, 285.42, 212.57, 283.8, 189.89, 275.3 ]
+				}
+			},
+			"game/bg-cabinet": {
+				"game/bg-cabinet": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			},
+			"game/cabinet-bolt-cutters": {
+				"game/cabinet-bolt-cutters": { "x": 243.35, "y": 107.23, "width": 59, "height": 86 }
+			},
+			"game/cabinet-cleaners": {
+				"game/cabinet-cleaners": { "x": 182.19, "y": 313.37, "width": 94, "height": 80 }
+			},
+			"game/cabinet-toolbox": {
+				"game/cabinet-toolbox": { "x": 210.14, "y": 227.51, "width": 82, "height": 59 }
+			},
+			"toolbox": {
+				"toolbox": {
+					"type": "boundingbox",
+					"vertexCount": 6,
+					"vertices": [ 169.64, 197.95, 171.66, 236.02, 180.98, 246.14, 244.16, 246.95, 251.04, 236.02, 250.23, 199.97 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"bolt-cutters": {
+		"slots": {
+			"game/cabinet-bolt-cutters": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"cleaners": {
+		"slots": {
+			"game/cabinet-cleaners": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	},
+	"no-bolt-cutters": {
+		"slots": {
+			"bolt-cutters": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"game/cabinet-bolt-cutters": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"toolbox": {
+		"slots": {
+			"game/cabinet-toolbox": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}

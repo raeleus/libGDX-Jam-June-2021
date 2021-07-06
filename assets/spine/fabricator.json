@@ -1,0 +1,31 @@
+{
+"skeleton": {
+	"hash": "xvqYqJw9Rd2ws10cXceSRUQZvno",
+	"spine": "3.8.99",
+	"x": -0.5,
+	"y": 0.14,
+	"width": 401,
+	"height": 401,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-fabricator", "bone": "root", "attachment": "game/bg-fabricator" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"game/bg-fabricator": {
+				"game/bg-fabricator": { "x": 200, "y": 200.64, "width": 401, "height": 401 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

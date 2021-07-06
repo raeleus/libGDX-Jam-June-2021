@@ -1,0 +1,22 @@
+{
+"skeleton": { "hash": "HwWHWkeVnq8pgWIoif7hrCgnlU0", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-plant", "bone": "root", "attachment": "game/bg-plant" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"game/bg-plant": {
+				"game/bg-plant": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

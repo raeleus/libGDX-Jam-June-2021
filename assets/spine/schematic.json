@@ -1,0 +1,22 @@
+{
+"skeleton": { "hash": "cW12bx+Sj80ZckWt6Hh2uU/FIHc", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-schematic", "bone": "root", "attachment": "game/bg-schematic" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"game/bg-schematic": {
+				"game/bg-schematic": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

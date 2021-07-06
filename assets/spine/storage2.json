@@ -1,0 +1,50 @@
+{
+"skeleton": { "hash": "uGYz+j1iSSSGMJWmyJ3cYYZkhbs", "spine": "3.8.99", "width": 400, "height": 400, "images": "", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "game/bg-storage", "bone": "root", "attachment": "game/bg-storage" },
+	{ "name": "game/storage-crate", "bone": "root", "attachment": "game/storage-crate" },
+	{ "name": "game/storage-crate2", "bone": "root", "attachment": "game/storage-crate" },
+	{ "name": "game/storage-notebook", "bone": "root", "dark": "000000", "attachment": "game/storage-notebook" },
+	{ "name": "notebook", "bone": "root", "attachment": "notebook" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"game/bg-storage": {
+				"game/bg-storage": { "x": 200, "y": 200, "width": 400, "height": 400 }
+			},
+			"game/storage-crate": {
+				"game/storage-crate": { "x": 250.11, "y": 182.52, "width": 83, "height": 85 }
+			},
+			"game/storage-crate2": {
+				"game/storage-crate": { "x": 164.54, "y": 179.46, "width": 83, "height": 85 }
+			},
+			"game/storage-notebook": {
+				"game/storage-notebook": { "x": 276.09, "y": 120.63, "width": 52, "height": 51 }
+			},
+			"notebook": {
+				"notebook": {
+					"type": "boundingbox",
+					"vertexCount": 6,
+					"vertices": [ 279.57, 96.49, 252.08, 118.71, 252.08, 127.8, 270.96, 145, 300.36, 120.63, 302.51, 114.41 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"notebook": {
+		"slots": {
+			"game/storage-notebook": {
+				"twoColor": [
+					{ "light": "000000ff", "dark": "ffffff" }
+				]
+			}
+		}
+	}
+}
+}
